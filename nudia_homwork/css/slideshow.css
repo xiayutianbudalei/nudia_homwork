@@ -1,0 +1,89 @@
+* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.imgOul li {
+			list-style: none;
+			width: 20%;
+			height: 100%;
+			float: left;
+			background-size: 100% 100%;
+		}
+
+		.imgOul li:nth-child(1) {
+			background-image: url(../img/1.jpg);
+		}
+
+		.imgOul li:nth-child(2) {
+			background-image: url(../img/2.jpg);
+		}
+
+		.imgOul li:nth-child(3) {
+			background-image: url(../img/3.jpg);
+		}
+
+		.imgOul li:nth-child(4) {
+			background-image: url(../img/4.jpg);
+		}
+
+		.imgOul li:nth-child(5) {
+			background-image: url(../img/1.jpg);
+		}
+
+		.imgOul {
+			position: absolute;
+			width: 500%;
+			height: 100%;
+		}
+
+		.Box {
+			width: 100%;
+			height: 495px;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.douBox {
+			position: absolute;
+			left: 500px;
+			bottom: 50px;
+		}
+
+		.douBox li {
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			margin-left: 10px;
+			float: left;
+			background: gray;
+			list-style: none;
+		}
+
+		.douBox .doudou {
+			background: red;
+		}
+
+		.next {
+			width: 30px;
+			height: 30px;
+			text-align: center;
+			line-height: 30px;
+			font-size: 25px;
+			position: absolute;
+			right: 0px;
+			top: 50px;
+			background: gray;
+		}
+
+		.prev {
+			width: 30px;
+			height: 30px;
+			text-align: center;
+			line-height: 30px;
+			font-size: 25px;
+			position: absolute;
+			left: 0px;
+			top: 50px;
+			background: gray;
+		}

@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('../font/.eot?t=1597740429270'); /* IE9 */
+  src: url('../font/.eot?t=1597740429270#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPcAAsAAAAACDwAAAOQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDcIM+ATYCJAMQCwoABCAFhG0HThs2B8iehbHzIgxBPfXsjJXiU0bwtZ/u+3dJLkmBFShAhZZ1p6qsCIyqMOx8jaqqZyPyf23mB1ZMpmZr6shAiJE3mYqoJaeq3npuAgQgVij/wTHTVQnk2WxOUeGZtKZIHiXQgCLyo8n+gf6B9IexKy/iPIGWcSMx2yVVTeAiM6YF4l5VeHBJ6eSa+FCEesnaDPEENaWazz4C8Oj/fPxDQi6gUktgzN29LJYg74v/dShN+z8NTlwE8MezgG0iYQHIxHWp7RQXehZwWsrvOFgFiqLii//6+dehzn8o2IusmDJ9//Eqog5GbBdYht7EF2/zYvlnyCL4PxSjgheypqAbb8AHGJRRiypZY8TDycnDw8chyBU8YGLLVTtjs7W8etX0+nXzQntu8+qFBzcSu701ySnob7NpLR5N4LkPXtHq8jRZS83jm3bYSm69QttfF9+1T/RYsCaoY81ad++FqwPaVq0SPDu9sNq/x23Nmulr3d0Xrg7s9nT+9rRVfXuuTL+68PK0Sy0LVk1bvXDt9DU8npO6LePqVceBOIOdf+LEfChmqZ6dH8/PwAPrrl5dF5oYeWUZa1i2zIA07LIwAwVBR3d3qDW/+vXw7nkj5o0ZmzboB1NvMNRjMUPrmHocPKQ+qqnpw3ObEBVJeP7h4yHelbXO+4JadKFX3cvcng5r1wXtWzx8TE2W77M7U1z2Ba3G9dMu+l10FZzPBa2Sza7QM6/nmpxhMiK63f8GlbLmXwYWgE5uKgeQ5lkbAOmBY37xOIufW9PrnfWvuF9j0yd/ZrGf0OkAKcB/4rfm/1B+y7ysCg19zrLI5mmx2Q5n3oykZRr5jQEGvB1DMdzaRSgpPoNKwxgkxQQyYxegpm0Z6oo1aJlXurltEMGJ7ArMmQ0g9DkKlR7vkPR5jMzYN1Az4g/U9cVBy17479k2lepWSDBPsYSE8UgVNbNsGalbEN+AldFGniSFPrUFE6tqR/ExcVl/KTZjMsYC6xglgVIZyUQzoRJwGTYaNWQhmh6LNEZHqSUjNlYu+6IYUTOBmy0ExqMwCSIYD1GJNGay25hyy31/A0wxmhGP1ORU2FtghJXaOxIvRlwLZKnM3CrnWl5iNYYiAUXJEBmhMUFKgAUzmh4NYikfpYeJqBi6Hi6LDLGomNxWFjO/wvSEu6DF2CcHy3CMA+MIrUverEi8XnUHeSuYYDPVRo9T89ZezfFKrKMAAA==') format('woff2'),
+  url('iconfont.woff?t=1597740429270') format('woff'),
+  url('../font/.ttf?t=1597740429270') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('../font/.svg?t=1597740429270#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fangdajing:before {
+  content: "\e6e4";
+}
+
+.icon-gerentouxiang_o:before {
+  content: "\ebac";
+}
+
+.icon-icon-:before {
+  content: "\e661";
+}
+

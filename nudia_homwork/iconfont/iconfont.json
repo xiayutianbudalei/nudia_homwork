@@ -1,0 +1,79 @@
+{
+  "id": "2013783",
+  "name": "nudia",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "55532",
+      "name": "微信",
+      "font_class": "88",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "838048",
+      "name": "7天无理由退货",
+      "font_class": "7tianwuliyoutuihuo",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "6874596",
+      "name": "圆形打勾",
+      "font_class": "yuanxingdagou",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    },
+    {
+      "icon_id": "6999488",
+      "name": "对话框",
+      "font_class": "tuya-",
+      "unicode": "e758",
+      "unicode_decimal": 59224
+    },
+    {
+      "icon_id": "9322674",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "9819945",
+      "name": "地图 (4)",
+      "font_class": "ditu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "14726449",
+      "name": "全场免运费",
+      "font_class": "quanchangmianyunfei",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "1221178",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "5387990",
+      "name": "个人头像_o",
+      "font_class": "gerentouxiang_o",
+      "unicode": "ebac",
+      "unicode_decimal": 60332
+    },
+    {
+      "icon_id": "12687176",
+      "name": "购物车",
+      "font_class": "icon-",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    }
+  ]
+}

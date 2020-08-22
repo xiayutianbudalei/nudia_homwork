@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<!-- 引用css -->
+		<link rel="stylesheet" type="text/css" href="./css/nudia1.css"/>
+		<!-- 引用小图标 -->
+		<link rel="stylesheet" type="text/css" href="./css/iconfont_head.css"/>
+	</head>
+	<body>
+		<!-- 头部div -->
+		<div class="head">
+			<!-- 头部安全区div -->
+			<div class="head1">
+				<!-- 头部导航第一个为图片 -->
+				<a href="#"><img src="img/72.png" ></a>
+				<!-- 其他导航ul -->
+				<ul class="head2">
+					<li><a href="">Play</a></li>
+					<li><a href="">Z系列</a></li>
+					<li><a href="">红魔</a></li>
+					<li><a href="">智能生态</a></li>
+					<li><a href="">品牌</a></li>
+					<li><a href="">服务</a></li>
+					<li><a href="">社区</a></li>
+					<li><a href="">体验店</a></li>
+				</ul>
+				<!-- 购物车等的图标引用 -->
+				<p><a href="" class="iconfont icon-gerentouxiang_o"></a>
+				<a href="" class="iconfont icon-icon-"><a>
+				<a href="" class="iconfont icon-fangdajing"></a></p>
+			</div>
+			<!-- 导航的下拉菜单 -->
+			<div class="head4">
+				
+			<ul class="head3">
+				<li>
+					<a href="">
+						<img src="img/5ea30ec20b13056.png" >
+						<p>五彩斑斓黑</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="./img/5ea01230a0ce944.png" >
+						<p>五湖四海蓝</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="./img/5ed0b2e115b2191.png" >
+						<p>五颜六色白</p>
+					</a>
+				</li>
+			</ul>
+			<!-- 导航的下拉菜单2 -->
+			
+			<ul class="head4-1">
+				<li>
+					<a href="">
+						<img src="./img/158389379136.png" >
+						<p>z20</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="./img/15838962399.png" >
+						<p>x</p>
+					</a>
+				</li>
+			</ul>
+			<!-- 导航的下拉菜单3 -->
+			
+			<ul class="head4-2">
+				<li>
+					<a href="">
+						<img src="./img/159643429472.png" >
+						<p>红魔5S 游戏手机<br>
+
+新品
+</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="./img/15907364279.png" >
+						<p>红魔5G 游戏手机 氘锋版<br>
+
+新品</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="./img/158408092771.png" >
+						<p>红魔5G 游戏手机<br>
+新品</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="./img/158389361740.png" >
+
+						<p>红魔3S</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+					<button type="button">查看更多</button>	
+					</a>
+				</li>
+			</ul>
+				</div>
+			</div>
+	
+	</body>
+</html>
+<script src="./js/jQuery.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	  $(".head2 li").eq(0).mouseenter(function(){
+	  	$(".head3").stop().fadeIn();
+			$(".head4").stop().fadeIn();
+	  })
+	  $(".head2 li").eq(0).mouseenter(function(){
+	    $(".head3").stop().fadeOut();
+		  $(".head4").stop().fadeOut();
+	    });
+		$(".head3").mouseenter(function(){
+			$(this).stop().fadeIn();
+		})
+		$(".head3").mouseenter(function(){
+		  $(this).stop().fadeOut();
+		  });
+		
+	  
+	  
+	  
+	  $(".head2 li").eq(1).mouseenter(function(){
+	  	$(".head4-1").stop().fadeIn();
+	  })
+	  
+	  
+	  $(".head2 li").eq(2).mouseenter(function(){
+	  	$(".head4-2").stop().fadeIn();
+	  })
+
+</script>

@@ -1,0 +1,282 @@
+ *{margin: 0; padding: 0;}
+/* 列表取消原点 */
+  li{list-style: none;}
+ /* 超链接去掉下划线 */
+  a{text-decoration: none;}
+  /* 取消倾斜 */
+  i,em{font-style: normal;}
+/*  取消加粗 */
+  b,strong{font-weight: normal;}
+/*  消除字体加粗 */
+  h1,h2,h3,h4,h5,h6{font-size: 16px; 
+  font-weight: normal;}
+  img{vertical-align: middle; border: none;}
+.head{
+	width: 100%;
+}
+/* <!-- 头部安全区div --> */
+.head1{
+	width: 85%;
+	height: 60px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	justify-content:space-between;
+	align-items: center;
+}
+/* <!-- 头部导航第一个为图片 --> */
+.head1 a img{
+	width: 150px;
+	height: 25px;
+}
+/* <!-- 其他导航ul --> */
+.head2{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	margin-left: -90px;
+	}
+.head2 li{
+	margin-left: 55px;
+}
+.head2 li a{
+	font-size: 14px;
+	color: black;
+	justify-content: flex-start;
+}
+/* <!-- 导航的下拉菜单 --> */
+.head4{
+	width: 100%;
+	height: 200px;
+	display: none;
+}
+.head3{
+	display: flex;
+	justify-content: flex-start;
+	width: 63%;
+	height: 200px;
+	margin: 0 auto;
+	display: none;
+}
+.head3 li{
+	margin-top: 30px;
+}
+.head3 li a{
+	box-sizing: border-box;
+	font-size: 12px;
+	color: #000000;
+	margin-right: 70px;
+	padding-left: 20px;
+}
+.head3 li a p{
+	margin-left: 23px;
+}
+.head3 li a img{
+	height: 70px;
+	width: 66px;
+	
+}
+/* <!-- 导航的下拉菜单 --> */
+.head4-1{
+	display: flex;
+	justify-content: flex-start;
+	width: 63%;
+	height: 200px;
+	margin: 0 auto;
+	display: none;
+}
+.head4-1 li{
+	margin-top: 30px;
+}
+.head4-1 li a{
+	box-sizing: border-box;
+	font-size: 12px;
+	color: #000000;
+	margin-right: 70px;
+	padding-left: 20px;
+}
+.head4-1 li a p{
+	margin-left: 45px;
+}
+.head4-1 li a img{
+	height: 70px;
+	width: 66px;
+	
+}
+/* <!-- 导航的下拉菜单 --> */
+.head4-2{
+	display: flex;
+	justify-content: flex-start;
+	width: 63%;
+	height: 200px;
+	margin: 0 auto;
+	display: none;
+}
+.head4-2 li{
+	margin-top: 30px;
+}
+.head4-2 li a{
+	box-sizing: border-box;
+	font-size: 12px;
+	color: #000000;
+	margin-right: 70px;
+	padding-left: 45px;
+}
+.head4-2 li a p{
+	margin-left: 63px;
+}
+.head4-2 li a img{
+	height: 70px;
+	width: 66px;
+	
+}
+.head4-2 li a button{
+	border-radius: 50px;
+	width: 120px;
+	height: 40px;
+	font-size: 14px;
+	background-color: #FFFFFF;
+}
+/* <!-- 购物车等的图标引用 --> */
+p{
+	margin-right: 22px;
+}
+p a{
+	margin-right: 9px;
+	color: black;
+	
+}
+p .icon-gerentouxiang_o{
+	font-size:30px;
+}
+p .icon-icon-{
+	font-size:30px;
+}
+p .icon-fangdajing{
+	font-size:30px;
+}
+
+/* 尾部div */
+.stera{
+	width: 100%;
+}
+/* <!-- div里的第一个div --> */
+.stera1{
+	width: 85%;
+	height: 195px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	justify-content:space-evenly;
+	align-items: center;
+	border-bottom: #EEEEEE 1px solid;
+}
+.stera1 a{
+	font-size: 18px;
+	color: #000000;
+	line-height: 40px;
+}
+.stera1 a .icon-7tianwuliyoutuihuo{
+	font-size: 50px;
+	margin-left: 35px;	
+}
+.stera1 a .icon-yuanxingdagou{
+	font-size: 50px;
+	margin-left: 35px;	
+}
+.stera1 a .icon-quanchangmianyunfei{
+	font-size: 50px;
+	margin-left: 35px;	
+}
+.stera1 a .icon-ditu{
+	font-size: 50px;
+	margin-left: 35px;	
+}
+/* <!-- div里的第二个div --> */
+.stera2{
+	width: 85%;
+	height: 355px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	justify-content:space-around;
+	border-bottom: #EEEEEE 1px solid;
+	
+}
+.stera2 span{
+	margin-left: -90px;
+	margin-top: 60px;
+	
+}
+.stera2 span ul{
+	margin-top: 25px;
+}
+.stera2 span ul li{
+	line-height: 30px;
+}
+.stera2 span ul li a{
+	color: #999999;
+	font-size: 14px;
+
+} 
+.stera2 p{
+	margin-right: -80px;
+	text-align: right;
+	color: #999999;
+	margin-top: 60px;
+}
+.stera2 p button{
+	width: 160px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #666666;
+}
+.stera2 p button a{
+	margin: 0 auto;
+	color: #faffff;
+	font-size: 20px;
+}
+.stera2 p i{
+	color: #000000;
+	font-size: 20px;
+}
+.stera2 p .icon-88{
+	font-size: 24px;
+}
+.stera2 p .icon-weibo{
+	font-size: 24px;
+}
+.stera2 ul li a:hover{
+	color: #000000;
+}
+/* <!-- div里的第三个div --> */
+.stera3{
+	width: 85%;
+	text-align: center;
+	word-spacing: 8px;
+	font-size: 14px;
+	color: #999999;
+	margin: 0 auto;
+}
+/* <!-- 国家设置 --> */
+.stera3 a{
+	color: #999999;
+	font-size: 14px;
+}
+.stera3 a button{
+	float: right;
+	background-image: url(../img/spritesheet.png);
+	background-repeat: no-repeat;
+	background-position: 2px -687.6px;
+	width: 170px;
+	height: 20px;
+	border-radius: 50px;
+	background-color: #FFFFFF;
+	border: none;
+	margin-top: -20px;
+}
+.stera3 a button p{
+	margin-left: 19px;
+}
